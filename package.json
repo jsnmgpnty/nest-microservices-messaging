@@ -1,7 +1,7 @@
 {
   "name": "nest-microservices-messaging",
   "version": "0.0.1",
-  "description": "A NestJS module for generator-nest-microservices yeoman template to handle distributed messaging",npm
+  "description": "A NestJS module for generator-nest-microservices yeoman template to handle distributed messaging",
   "license": "UNLICENSED",
   "author": "Jason Magpantay",
   "main": "index.js",
