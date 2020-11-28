@@ -1,15 +1,14 @@
 {
   "name": "nest-microservices-messaging",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A NestJS module for generator-nest-microservices yeoman template to handle distributed messaging",
   "license": "UNLICENSED",
   "author": "Jason Magpantay",
   "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build && npm run copy:assets",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "copy:assets": "cpx './src/public/**' 'dist/public'",
     "start": "npm run copy:assets && nest start",
     "start:dev": "npm run copy:assets && nest start --watch",
     "start:debug": "npm run copy:assets && nest start --debug 60030 --watch",
